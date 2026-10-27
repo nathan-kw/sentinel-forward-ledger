@@ -1,0 +1,118 @@
+{
+  "schema": "sentinel-forward-ledger-anchors/1",
+  "generatedAt": "2026-10-27T14:58:00+08:00",
+  "sourceBranch": "release/16.5.0",
+  "sourceCommit": "19cc2d4c8abaa9b58d9da5bde7157457222f4695",
+  "note": "Each item is a cryptographic hash anchor only — file bytes and portfolio data are NOT published in this repository.",
+  "anchorComparison": {
+    "matchesAnchorsDoc": [
+      "prereg-v2-r2",
+      "prereg-v2-r3",
+      "prereg-v2-r4",
+      "stickiness-results-void",
+      "stickiness-results-corrected",
+      "stickiness-v2-audit",
+      "engine-git-f42d6ac",
+      "live-mpf-latest-json"
+    ],
+    "notListedInAnchorsDoc": [
+      "prereg-v2-base",
+      "prereg-v2-r1",
+      "anchors-index-2026-10-26"
+    ],
+    "anchorsDocOmittedItems": [
+      "Items prereg-v2-base, prereg-v2-r1, and anchors-index-2026-10-26 are not listed in docs/grok-trial/anchors-2026-10-26.md but are anchored here by sha256 only (no file content in this public repo).",
+      "Engine commit and live-mpf-latest.json appear in anchors-2026-10-26.md; this manifest now includes their hashes only — still no snapshot bytes in the public repo."
+    ]
+  },
+  "items": [
+    {
+      "id": "prereg-v2-base",
+      "hashKind": "sha256",
+      "descriptionZh": "黏性規則 v2 預先登記（初稿）之檔案內容雜湊（非內容本身）",
+      "descriptionEn": "SHA-256 of stickiness v2 preregistration base document bytes (not the document)",
+      "sha256": "027578df3c81ae540bc9318090259d4f67a24db8bc149caee8c473fbd43402af",
+      "sourcePath": "docs/grok-trial/prereg-stickiness-v2.md"
+    },
+    {
+      "id": "prereg-v2-r1",
+      "hashKind": "sha256",
+      "descriptionZh": "黏性規則 v2 預先登記修訂 1 之檔案內容雜湊（非內容本身）",
+      "descriptionEn": "SHA-256 of stickiness v2 preregistration revision 1 bytes (not the document)",
+      "sha256": "8a2ec2e520170c52e1179272e7fec82d7ffe0f474989f3c7d2392981304cf6db",
+      "sourcePath": "docs/grok-trial/prereg-stickiness-v2-r1.md"
+    },
+    {
+      "id": "prereg-v2-r2",
+      "hashKind": "sha256",
+      "descriptionZh": "黏性規則 v2 預先登記修訂 2 之檔案內容雜湊（非內容本身）",
+      "descriptionEn": "SHA-256 of stickiness v2 preregistration revision 2 bytes (not the document)",
+      "sha256": "98ea1f1e1f71b89d361380a4bbdeef18ddf3f521303314a58d73177b42e5a164",
+      "sourcePath": "docs/grok-trial/prereg-stickiness-v2-r2.md"
+    },
+    {
+      "id": "prereg-v2-r3",
+      "hashKind": "sha256",
+      "descriptionZh": "黏性規則 v2 預先登記修訂 3 之檔案內容雜湊（非內容本身）",
+      "descriptionEn": "SHA-256 of stickiness v2 preregistration revision 3 bytes (not the document)",
+      "sha256": "f4dc6d08e3424eb97bcbf68c25e07310e129ea3b887329d749920fdcc01e757e",
+      "sourcePath": "docs/grok-trial/prereg-stickiness-v2-r3.md"
+    },
+    {
+      "id": "prereg-v2-r4",
+      "hashKind": "sha256",
+      "descriptionZh": "黏性規則 v2 預先登記修訂 4 之檔案內容雜湊（非內容本身）",
+      "descriptionEn": "SHA-256 of stickiness v2 preregistration revision 4 bytes (not the document)",
+      "sha256": "bedd69e35ba2c9c70c38330f48f10f8b00729575a44540acdc043eb6e1bb2b9c",
+      "sourcePath": "docs/grok-trial/prereg-stickiness-v2-r4.md"
+    },
+    {
+      "id": "stickiness-results-void",
+      "hashKind": "sha256",
+      "descriptionZh": "黏性 v2 第一次試驗結果檔之內容雜湊（作廢；非內容本身）",
+      "descriptionEn": "SHA-256 of voided stickiness v2 results JSON bytes (not the file)",
+      "sha256": "2249327e7c6fc13cb4be365f87e29d9c7062c3f135f33799abfdfbf3c6014927",
+      "sourcePath": "docs/grok-trial/stickiness-v2-results.json"
+    },
+    {
+      "id": "stickiness-results-corrected",
+      "hashKind": "sha256",
+      "descriptionZh": "黏性 v2 修正後試驗結果檔之內容雜湊（非內容本身）",
+      "descriptionEn": "SHA-256 of corrected stickiness v2 results JSON bytes (not the file)",
+      "sha256": "7b3b12d5db3cda2e787ebd7ca107cda0a3c2fc3cb4019ba18cd0e3ae7b7910c2",
+      "sourcePath": "docs/grok-trial/stickiness-v2-results-corrected.json"
+    },
+    {
+      "id": "stickiness-v2-audit",
+      "hashKind": "sha256",
+      "descriptionZh": "黏性 v2 審計腳本之檔案內容雜湊（非內容本身）",
+      "descriptionEn": "SHA-256 of stickiness v2 audit script bytes (not the script)",
+      "sha256": "e211b9fc8b2f2e5d1e9a159e0e03f5bc8cd299f484690d56df34b546eb6b6108",
+      "sourcePath": "tools/research/stickiness-v2-audit.mjs"
+    },
+    {
+      "id": "anchors-index-2026-10-26",
+      "hashKind": "sha256",
+      "descriptionZh": "主倉庫錨點清單 md 之檔案內容雜湊（非內容本身）",
+      "descriptionEn": "SHA-256 of main-repo anchor index markdown bytes (not the document)",
+      "sha256": "b33aed760ec7e0575df65a4bb978d87dd33823b5e9d8ebcdb23df01e2e0df273",
+      "sourcePath": "docs/grok-trial/anchors-2026-10-26.md"
+    },
+    {
+      "id": "engine-git-f42d6ac",
+      "hashKind": "gitCommitId",
+      "descriptionZh": "引擎錨點：git 提交物件 ID（完整 SHA；非工作樹內容）— fix(cycle) 季報強度改回 analyse 的 conf",
+      "descriptionEn": "Engine anchor: full git commit object id (not tree contents) — conf display fix on quarterly cycle report",
+      "gitCommitSha": "f42d6ac52583cfad310d46116249bec1deeed3f7",
+      "sourcePath": "(git commit f42d6ac52583cfad310d46116249bec1deeed3f7 on release/16.5.0 ancestry)"
+    },
+    {
+      "id": "live-mpf-latest-json",
+      "hashKind": "sha256",
+      "descriptionZh": "決策用 NAV 快照檔 live-mpf-latest.json 之內容雜湊（非 JSON 內容本身；第一階段不公開位元組）",
+      "descriptionEn": "SHA-256 of live-mpf-latest.json bytes used for trial diagnostics (file not published here)",
+      "sha256": "b0097225bd2f7fd8d35d5cd6a43849072d07351ec70da28402617d7beae444e6",
+      "sourcePath": "docs/grok-trial/live-mpf-latest.json"
+    }
+  ]
+}

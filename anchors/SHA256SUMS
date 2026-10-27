@@ -1,0 +1,12 @@
+# SHA-256 anchors only (file bytes not stored in this repo). gitCommitId listed separately below.
+027578df3c81ae540bc9318090259d4f67a24db8bc149caee8c473fbd43402af  prereg-v2-base  docs/grok-trial/prereg-stickiness-v2.md
+8a2ec2e520170c52e1179272e7fec82d7ffe0f474989f3c7d2392981304cf6db  prereg-v2-r1  docs/grok-trial/prereg-stickiness-v2-r1.md
+98ea1f1e1f71b89d361380a4bbdeef18ddf3f521303314a58d73177b42e5a164  prereg-v2-r2  docs/grok-trial/prereg-stickiness-v2-r2.md
+f4dc6d08e3424eb97bcbf68c25e07310e129ea3b887329d749920fdcc01e757e  prereg-v2-r3  docs/grok-trial/prereg-stickiness-v2-r3.md
+bedd69e35ba2c9c70c38330f48f10f8b00729575a44540acdc043eb6e1bb2b9c  prereg-v2-r4  docs/grok-trial/prereg-stickiness-v2-r4.md
+2249327e7c6fc13cb4be365f87e29d9c7062c3f135f33799abfdfbf3c6014927  stickiness-results-void  docs/grok-trial/stickiness-v2-results.json
+7b3b12d5db3cda2e787ebd7ca107cda0a3c2fc3cb4019ba18cd0e3ae7b7910c2  stickiness-results-corrected  docs/grok-trial/stickiness-v2-results-corrected.json
+e211b9fc8b2f2e5d1e9a159e0e03f5bc8cd299f484690d56df34b546eb6b6108  stickiness-v2-audit  tools/research/stickiness-v2-audit.mjs
+b33aed760ec7e0575df65a4bb978d87dd33823b5e9d8ebcdb23df01e2e0df273  anchors-index-2026-10-26  docs/grok-trial/anchors-2026-10-26.md
+b0097225bd2f7fd8d35d5cd6a43849072d07351ec70da28402617d7beae444e6  live-mpf-latest-json  docs/grok-trial/live-mpf-latest.json
+gitCommitId  f42d6ac52583cfad310d46116249bec1deeed3f7  engine-git-f42d6ac  (commit object id, not a file hash)
